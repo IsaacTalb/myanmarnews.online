@@ -1,6 +1,6 @@
 /* Navbar */
 header {
-  background: $navbar-bg;
+  background:  rgb(6 7 18 / 98%);
 
   .navbar {
     font-weight: 500;
@@ -185,7 +185,8 @@ header {
   z-index: 99;
   top: 0;
   left: 0;
-  background: $navbar-bg;
+  background-color: rgb(6 7 18 / 98%);
+  background: rgb(6 7 18 / 98%);
   transition: top 3s;
   box-shadow: none;
   -webkit-transition: all 0.5s ease-out;
@@ -207,7 +208,7 @@ header {
     }
   }
   .collapse {
-    background: $navbar-bg;
+    background: rgb(6 7 18 / 98%);
     z-index: 99;
   }
   .navbar-collapse {

@@ -1,17 +1,14 @@
 <div>
-  <!-- Smile, breathe, and go slowly. - Thich Nhat Hanh -->
-
   <footer>
-    <div class="footer-top">
+    <div class="footer-top" style="background-color: rgb(6 7 18 / 98%);">
       <div class="container">
         <div class="row">
           <div class="col-sm-5">
-            <img src="assets/images/logo.svg" class="footer-logo" alt="">
-            <h5 class="font-weight-normal mt-4 mb-5">
-              QuickTech is your news, entertainment, music fashion website. We
-              provide you with the latest breaking news and videos straight from
-              today trending tech related news, modern, social and Global Issues
-              so don't miss out our words.
+            <img src="assets/images/myanmarnews-blue.png" class="footer-logo" alt="" style="width: 30px; height: auto;">
+            <h5 class="font-weight-normal mt-4 mb-5" style="line-height: 1.7;">
+            မြန်မာနည်းပညာသတင်း၊ နည်းပြန့်နဲ့အွန်လိုင်းသတင်းအချက်အလက်များကို တင်ပြပေးနေတဲ့ Myanmar News သည် သင့်အတွက် သတင်း၊ သိပ္ပံနဲ့ အွန်လိုင်းဗဟုသုတ များကို တစ်နေရာတည်းမှာ စုစည်းထားသော ဝက်ဘ်ဆိုက်တစ်ခုဖြစ်ပါတယ်။
+            <br><br>
+            သင်ဖတ်မယ်လို့မျှော်လင့်ပါတယ်။
             </h5>
             <ul class="social-media mb-3">
               <li>
@@ -74,18 +71,18 @@
         </div>
       </div>
     </div>
-    <div class="footer-bottom">
+    <div class="footer-bottom" style="background-color: rgb(6 7 18 / 98%);">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="d-sm-flex justify-content-between align-items-center">
               <div class="fs-14 font-weight-600">
-                © 2025 @ <a href="https://www.quicktech.info/" target="_blank" class="text-white"> Quick Tech</a>.
+               @ <a href="https://www.myanmarnews.online/" target="_blank" class="text-white"> Myanmar News</a>.
                 All rights reserved.
               </div>
               <div class="fs-14 font-weight-600">
-                Developed by <a href="https://www.quicktech.info/" target="_blank"
-                  class="text-white">Quick Tech Team</a>
+                Developed by <a href="https://www.myanmarnews.online/" target="_blank"
+                  class="text-white">Myanmar News Team</a>
               </div>
             </div>
           </div>

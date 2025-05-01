@@ -3,10 +3,9 @@
         <div class="container">
             <div class="d-lg-flex align-items-center justify-content-between">
                 <div class="d-flex align-items-center">
-                    <span class="badge badge-dark mr-3">Welcome to Quick Tech News</span>
+                    <span class="badge badge-dark mr-3">Welcome to Myanmar News</span>
                     <p class="mb-0">
-                        The best technology news, views, opinions, and product reviews.
-                        Read by industry professionals and technology enthusiasts.
+                        <strong>The most reliable, trustworthy, and rapid news source in Myanmar, featuring expert opinions, and verifiable facts.</strong>
                     </p>
                 </div>
                 <div class="d-flex">

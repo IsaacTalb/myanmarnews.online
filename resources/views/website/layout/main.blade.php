@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/assets/vendors/aos/dist/aos.css/aos.css" />
 
     <!-- End plugin css for this page -->
-    <link rel="shortcut icon" href="/assets/images/quicktech-logo.png" />
+    <link rel="shortcut icon" href="/assets/images/myanmarnews/android-chrome-192x192.png" />
 
     <!-- inject:css -->
     <link rel="stylesheet" href="/assets/css/style.css">

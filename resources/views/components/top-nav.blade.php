@@ -1,6 +1,6 @@
 <div>
     <!-- The only way to do great work is to love what you do. - Steve Jobs -->
-    <header id="header">
+    <header id="header" style="background-color: rgb(6 7 18 / 98%);">
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light">
             <div class="navbar-top">
@@ -39,7 +39,7 @@
               <div class="d-flex justify-content-between align-items-center">
                 <div>
                   <a class="navbar-brand" href="/"
-                    ><img src=" {{ asset('assets/images/quicktech-logo.png') }}" alt="Quick Tech Logo" style="width:45px;"
+                    ><img src=" {{ asset('assets/images/myanmarnews-blue.png') }}" alt="Quick Tech Logo" style="width:45px;"
                   /></a>
                 </div>
                 <div>

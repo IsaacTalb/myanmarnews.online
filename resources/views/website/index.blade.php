@@ -1,5 +1,5 @@
 @extends('website.layout.main')
-@section('title', 'Quick Tech')
+@section('title', 'Myanmar News')
 @section('content')
 
 <div class="row" data-aos="fade-up">
