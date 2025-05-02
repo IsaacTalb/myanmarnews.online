@@ -20,7 +20,7 @@
           @endif
 
           <div>
-            <h1 class="font-weight-600 mb-1">
+            <h1 class="font-weight-600 mb-1" style="line-height: 1.6">
               {{ $article->title }}
             </h1>
             <p class="fs-13 text-muted mb-0">

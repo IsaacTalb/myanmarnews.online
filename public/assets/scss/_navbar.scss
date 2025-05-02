@@ -207,6 +207,7 @@ header {
       padding-left: 0px;
     }
   }
+
   .collapse {
     background: rgb(6 7 18 / 98%);
     z-index: 99;
@@ -231,6 +232,7 @@ header {
     button {
       margin-bottom: 10px;
     }
+
   }
   .collapse:not(.show) {
     display: block;
@@ -249,3 +251,4 @@ header {
     color: $white;
   }
 }
+

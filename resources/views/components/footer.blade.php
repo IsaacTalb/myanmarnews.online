@@ -41,7 +41,7 @@
                         <img src="{{asset(Helper::singeleImage($article->image))}}" alt="thumb" class="img-fluid">
                       </div>
                       <div class="col-9">
-                        <h5>{{ Str::words($article->title, 5, '...')}}</h5>
+                        <h5 style="line-height: 1.6;">{{ Str::words($article->title, 5, '...')}}</h5>
                       </div>
                     </div>
                   </a>

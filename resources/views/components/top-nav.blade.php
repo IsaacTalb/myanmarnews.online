@@ -65,12 +65,12 @@
                       <i class="mdi mdi-close"></i>
                     </button>
                   </li>
-                  <li class="nav-item active">
+                  <li class="nav-item active" style="padding-top: 10px;">
                     <a class="nav-link" href="/">Home</a>
                   </li>
                 
                   @foreach($categories->take(7) as $category)
-                    <li class="nav-item"><a class="nav-link" href="{{ route('article.index',$category->id) }}"> {{ $category->name }}</a></li>
+                    <li class="nav-item" style="padding-top: 10px;"><a class="nav-link" href="{{ route('article.index',$category->id) }}"> {{ $category->name }}</a></li>
                   @endforeach
     
                    

@@ -5,18 +5,20 @@
 <div class="row" data-aos="fade-up">
     <div class="col-xl-8 stretch-card grid-margin">
         <div class="position-relative">
-            <img src="assets/images/dashboard/nividia.webp" alt="banner" class="img-fluid" />
+            <img src="assets/images/dashboard/myanmar-student.png" alt="banner" class="img-fluid" />
             <div class="banner-content">
                 <div class="badge badge-danger fs-12 font-weight-bold mb-3">
-                    Global news
+                   Myanmar News
                 </div>
-                <h1 class="mb-0">GLOBAL AI NEWS</h1>
-                <h1 class="mb-2">
-                    Nvidia
-                    , the chipmaker that powers much of today’s artificial intelligence boom, on Monday announced a push to produce NVIDIA AI supercomputers entirely in the U.S. for the first time.
-                </h1>
+                <!-- <h1 class="mb-0">မြန်မာ့ သတင်းများ</h1> -->
+                <div style="background: #fff; padding: 10px; border-radius: 5px;">
+                    <h1 class="mb-2" style="color:black; line-height: 1.6">
+                        ပြန်ကျင်းပမယ့်စာမေးပွဲအတွက် 
+                        စစ်ကောင်စီ ဘာလုပ်ပေးမှာလဲ
+                    </h1>
+                </div>
                 <div class="fs-12">
-                    <span class="mr-2">Photo </span>10 hours ago
+                    <span class="mr-2">Photo </span>၂၀၂၀ ခုနှစ်က တက္ကသိုလ်ဝင်တန်းစာမေးပွဲမှာတွေ့ရတဲ့ ကျောင်းသူတချို့
                 </div>
             </div>
         </div>
@@ -33,7 +35,7 @@
                     <div class="d-flex border-bottom-blue pt-3 pb-4 align-items-center justify-content-between">
                         <div class="pr-3 w-75">
                             {{-- <h5>{{ Str::words($latest->title, 5, '...')}}</h5> --}}
-                            <h5>{{ $latest->title}}</h5>
+                            <h5 style="line-height: 1.6">{{ $latest->title}}</h5>
                             <div class="fs-12">
                                 <span class="mr-2">Photo </span>{{  $latest->created_at->diffForHumans()    }}
                             </div>
@@ -93,7 +95,7 @@
                             </div>
                         </div>
                         <div class="col-sm-8  grid-margin">
-                            <h2 class="mb-2 font-weight-600">
+                            <h2 class="mb-2 font-weight-600" style="line-height: 1.6">
                                 {!! $article->title !!}
                             </h2>
                             <div class="fs-13 mb-2">
@@ -281,7 +283,7 @@
                                 </div>
 
                                 <div class="col-md-8" style="min-height: 97px;">
-                                    <h5 style="margin: 0"> {{ $article->title }}</h5>
+                                    <h5 style= "margin: 0; line-height: 1.6;"> {{ $article->title }}</h5>
                                     <p style="margin: 0">{{ $article->created_at->diffForHumans() }}</p>
                                 </div>
                             </div>

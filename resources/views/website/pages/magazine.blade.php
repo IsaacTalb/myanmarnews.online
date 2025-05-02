@@ -36,7 +36,7 @@
                 </div>
               </div>
               <div class="col-lg-8 grid-margin">
-                <h2 class="font-weight-600 mb-2">
+                <h2 class="font-weight-600 mb-2" style="line-height: 1.6">
                   {!!$article->title!!}
                 </h2>
                 <p class="fs-13 text-muted mb-0">
@@ -50,8 +50,7 @@
           </a>
 
           @empty
-          <p>Sorry, News not available in this category!</p>
-
+          <p>ဝမ်းနည်းပါတယ်, ဤအမျိုးအစားတွင် သတင်းများ မရှိပါ။</p>
 
           @endforelse
         </div>
@@ -69,7 +68,7 @@
                       Ways to stay social online while in self..
                     </h5>
                     <p class="fs-13 text-muted mb-0">
-                      <span class="mr-2">Photo </span>10 Minutes ago
+                      <span class="mr-2">Photo </span>10 hours ago
                     </p>
                   </div>
                   <div class="col-sm-4">

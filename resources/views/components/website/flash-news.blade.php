@@ -5,7 +5,7 @@
                 <div class="d-flex align-items-center">
                     <span class="badge badge-dark mr-3">Welcome to Myanmar News</span>
                     <p class="mb-0">
-                        <strong>The most reliable, trustworthy, and rapid news source in Myanmar, featuring expert opinions, and verifiable facts.</strong>
+                        <strong>မြန်မာနိုင်ငံရှိ အရင်းအမြစ်မှန်၊ ယုံကြည်စိတ်ချရပြီး အမြန်ဆုံး သတင်းများကို တင်ပြသော မီဒီယာအဖွဲ့။ ကျွမ်းကျင်သူများ၏ ချက်ချင်းထုတ်ပြန်မှုများနှင့် စစ်မှန်သော အချက်အလက်များကို ပါဝင်တင်ဆက်ပါသည်။</strong>
                     </p>
                 </div>
                 <div class="d-flex">
