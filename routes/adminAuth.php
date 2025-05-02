@@ -10,16 +10,16 @@ use App\Http\Controllers\admin\Auth\RegisteredUserController;
 use App\Http\Controllers\admin\Auth\VerifyEmailController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/admin/register', [RegisteredUserController::class, 'create'])
-    ->middleware('guest:admin')
-    ->name('admin.register');
+// Route::get('/admin/register', [RegisteredUserController::class, 'create'])
+//     ->middleware('guest:admin')
+//     ->name('admin.register');
 
-Route::post('/admin/register', [RegisteredUserController::class, 'store'])
-    ->middleware('guest:admin');
+// Route::post('/admin/register', [RegisteredUserController::class, 'store'])
+//     ->middleware('guest:admin');
 
-// Route::get('/admin/register', function () {
-//     return redirect('/');
-// });
+Route::get('/admin/register', function () {
+    return redirect('/');
+});
 
 Route::get('/admin/login', [AuthenticatedSessionController::class, 'create'])
     ->middleware('admin.guest:admin')
