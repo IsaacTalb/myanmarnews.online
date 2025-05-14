@@ -22,6 +22,9 @@ use Illuminate\Support\Facades\Auth;
 /* Route::get('/', function () {
     return view('welcome');
 }); */
+Route::get('/about-us', function () {
+    return view('website.about-us');
+})->name('about-us');
 
 Route::get('/user', function () {
     dump(Auth::user()->user_type);
