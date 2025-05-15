@@ -26,6 +26,12 @@ Route::get('/about-us', function () {
     return view('website.about-us');
 })->name('about-us');
 
+Route::get('/contact', function () {
+    return view('website.contact');
+})->name('contact');
+
+
+
 Route::get('/user', function () {
     dump(Auth::user()->user_type);
 });
