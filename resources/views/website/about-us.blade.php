@@ -42,7 +42,7 @@
                         <div class="card text-center border-0 shadow-sm">
                             <img src="{{ asset('assets/images/team1.jpg') }}" class="card-img-top rounded-circle w-50 mx-auto mt-3" alt="Senior Reporter">
                             <div class="card-body">
-                                <h5 class="card-title mb-1">Issac</h5>
+                                <h5 class="card-title mb-1">James Arthur</h5>
                                 <p class="text-muted small mb-2">Senior Reporter</p>
                                 <p class="card-text">Focuses on education, and rural development topics throughout Myanmar.</p>
                             </div>
