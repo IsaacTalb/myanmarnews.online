@@ -30,6 +30,9 @@ Route::get('/contact', function () {
     return view('website.contact');
 })->name('contact');
 
+Route::get('/privacy-policy', function () {
+    return view('website.privacy-policy');
+})->name('privacy-policy');
 
 
 Route::get('/user', function () {

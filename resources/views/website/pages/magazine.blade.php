@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-12">
 
           @forelse($articles->sortDesc() as $article)
 
@@ -43,43 +43,16 @@
                   <span class="mr-2">Photo </span>{{ $article->created_at->diffForHumans() }}
                 </p>
                 <p class="fs-15">
-                  {!! strip_tags( Str::words($article->description, 15, '...')) !!}
+                  {!! strip_tags( Str::words($article->description, 30, '...')) !!}
                 </p>
               </div>
             </div>
           </a>
 
           @empty
-          <p>ဝမ်းနည်းပါတယ်, ဤအမျိုးအစားတွင် သတင်းများ မရှိပါ။</p>
+          <p>Sorry, there is no news in this category.</p>
 
           @endforelse
-        </div>
-
-        <div class="col-lg-4">
-          <h2 class="mb-4 text-primary font-weight-600">
-            Breaking News
-          </h2>
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="border-bottom pb-4 pt-4">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h5 class="font-weight-600 mb-1">
-                      Ways to stay social online while in self..
-                    </h5>
-                    <p class="fs-13 text-muted mb-0">
-                      <span class="mr-2">Photo </span>10 hours ago
-                    </p>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="rotate-img">
-                      <img src="../assets/images/magazine/Magzine_1.jpg" alt="banner" class="img-fluid" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 

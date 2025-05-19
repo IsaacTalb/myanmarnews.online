@@ -3,6 +3,30 @@
 @section('meta-description', 'About Us - Learn more about Myanmar News, our mission, our values, and the team behind our trusted journalism.')
 
 @section('content')
+<style>
+    .team-card {
+        background-color: #1f2937;
+        color: #f9fafb;
+        border-radius: 0.75rem;
+        padding: 1.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+    }
+
+    .team-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .team-card h5 {
+        font-size: 1.2rem;
+        color: #93c5fd;
+    }
+
+    .team-card p {
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+    }
+</style>
 
 <div class="row" data-aos="fade-up">
     <div class="col-xl-10 stretch-card grid-margin mx-auto">
@@ -25,44 +49,29 @@
 
             <!-- Team Members Section -->
             <div class="my-5">
-                <h4 class="mb-4 font-weight-semibold">Meet Our Team</h4>
+                <h4 class="mb-4 font-weight-semibold text-center">Meet Our Team</h4>
                 <div class="row">
-                    <div class="col-md-4 mb-4">
-                        <div class="card text-center border-0 shadow-sm">
-                            <img src="{{ asset('assets/images/team2.jpg') }}" class="card-img-top rounded-circle w-50 mx-auto mt-3" alt="Editor-in-Chief">
-                            <div class="card-body">
-                                <h5 class="card-title mb-1">Leon</h5>
-                                <p class="text-muted small mb-2">Junior Editor</p>
-                                <p class="card-text">A journalist with  3 years of experience in political and social affairs reporting.</p>
-                            </div>
+                    <div class="col-md-4">
+                        <div class="team-card text-center">
+                            <h5>Leon (pseudonym)</h5>
+                            <p class="text-muted small">Junior Editor</p>
+                            <p>A journalist with 3 years of experience in political and social affairs reporting.</p>
                         </div>
                     </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card text-center border-0 shadow-sm">
-                            <img src="{{ asset('assets/images/team1.jpg') }}" class="card-img-top rounded-circle w-50 mx-auto mt-3" alt="Senior Reporter">
-                            <div class="card-body">
-                                <h5 class="card-title mb-1">James Arthur</h5>
-                                <p class="text-muted small mb-2">Senior Reporter</p>
-                                <p class="card-text">Focuses on education, and rural development topics throughout Myanmar.</p>
-                            </div>
+                    <div class="col-md-4">
+                        <div class="team-card text-center">
+                            <h5>Phyo Aung Kyaw</h5>
+                            <p class="text-muted small">Senior Reporter</p>
+                            <p>Focuses on education, and rural development topics throughout Myanmar.</p>
                         </div>
                     </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card text-center border-0 shadow-sm">
-                            <img src="{{ asset('assets/images/team3.jpg') }}" class="card-img-top rounded-circle w-50 mx-auto mt-3" alt="Senior Reporter">
-                            <div class="card-body">
-                                <h5 class="card-title mb-1">Alexia</h5>
-                                <p class="text-muted small mb-2">Digital Editor</p>
-                                <p class="card-text">Leads our digital strategy and ensures news is accessible, and optimized for online readers.</p>
-                            </div>
+                    <div class="col-md-4">
+                        <div class="team-card text-center">
+                            <h5>Thiri Htet</h5>
+                            <p class="text-muted small">Digital Editor</p>
+                            <p>Leads our digital strategy and ensures news is accessible and optimized for online readers.</p>
                         </div>
                     </div>
-
-
-
-                    
                 </div>
             </div>
 
@@ -83,7 +92,7 @@
 <div class="bg-light py-5 mt-5">
     <div class="container text-center">
         <h5 class="mb-3 font-weight-bold">Have Questions or Feedback?</h5>
-        <p class="mb-3">Feel free to reach out to us at <a href="mailto:contact@myanmarnews.com">contact@myanmarnews.com</a></p>
+        <p class="mb-3">Feel free to reach out to us at <a href="mailto:contact@myanmarnews.online">contact@myanmarnews.online</a></p>
         <a href="{{ route('contact') }}" class="btn btn-primary">Contact Us</a>
     </div>
 </div>

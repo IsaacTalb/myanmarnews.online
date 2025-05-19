@@ -73,44 +73,31 @@
                     <li class="nav-item" style="padding-top: 10px;"><a class="nav-link" href="{{ route('article.index',$category->id) }}"> {{ $category->name }}</a></li>
                   @endforeach
     
+                   <li class="nav-item active">
+                    <a class="nav-link" href="/about-us">About Us</a>
+                  </li>
+
+                  <li class="nav-item active">
+                    <a class="nav-link" href="/privacy-policy">Privacy Policies</a>
+                  </li>
                    
-                      {{-- <li class="nav-item">
-                        <a class="nav-link" href="pages/magazine.html">MAGAZINE</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="pages/business.html">Business</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="pages/sports.html">Sports</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="pages/art.html">Art</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="pages/politics.html">POLITICS</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="pages/travel.html">Travel</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="pages/contactus.html">Contact</a>
-                      </li> --}}
+                    
                     </ul>
                   </div>
                 </div>
                 <ul class="social-media">
                   <li>
-                    <a href="#">
+                    <a href="https://www.facebook.com/MyanmarNewsOnlineWeb">
                       <i class="mdi mdi-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://www.youtube.com/@MyanmarNewsOnline">
                       <i class="mdi mdi-youtube"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://x.com/MyanmarNewsWeb">
                       <i class="mdi mdi-twitter"></i>
                     </a>
                   </li>

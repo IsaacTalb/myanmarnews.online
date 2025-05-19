@@ -12,17 +12,17 @@
             </h5>
             <ul class="social-media mb-3">
               <li>
-                <a href="#">
+                <a href="https://www.facebook.com/MyanmarNewsOnlineWeb">
                   <i class="mdi mdi-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.youtube.com/@MyanmarNewsOnline">
                   <i class="mdi mdi-youtube"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://x.com/MyanmarNewsWeb">
                   <i class="mdi mdi-twitter"></i>
                 </a>
               </li>
@@ -33,7 +33,7 @@
      style="background-color: #1e88e5; color: #fff; padding: 10px 18px; border-radius: 4px; font-size: 14px; font-weight: 600; margin-right: 12px; transition: background-color 0.3s;">
     About Us
   </a>
-  <a href="/contact-us" class="btn" 
+  <a href="/contact" class="btn" 
      style="background-color: transparent; color: #e0e0e0; border: 1px solid #e0e0e0; padding: 10px 18px; border-radius: 4px; font-size: 14px; font-weight: 600; transition: background-color 0.3s, color 0.3s;">
     Contact Us
   </a>
