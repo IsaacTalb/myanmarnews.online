@@ -21,6 +21,33 @@
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8649713048907576"
      crossorigin="anonymous"></script>
+
+    <script>
+        // Detect right-click event
+        document.addEventListener('contextmenu', function(event) {
+            event.preventDefault(); // Prevent default behavior
+            alert("Right-clicking is disabled on this website.");
+        });
+        // Detect keyboard shortcut for inspecting elements (Ctrl+Shift+I or F12)
+        document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.shiftKey && e.keyCode === 73)) { // Ctrl+Shift+I
+            alert("Inspecting is disabled on this website.");
+            return false;
+            }
+            if (e.keyCode === 123) { // F12
+            alert("Inspecting is disabled on this website.");
+            return false;
+            }
+        };
+
+        // Prevent right-click context menu
+        document.addEventListener('contextmenu', function(event) {
+            // Check if the clicked element is not a button or a link
+            if (!event.target.matches('button, a')) {
+            event.preventDefault(); // Prevent default behavior
+            }
+        });
+    </script>
 </head>
 
 <body>
