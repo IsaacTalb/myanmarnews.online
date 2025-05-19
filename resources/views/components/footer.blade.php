@@ -6,9 +6,9 @@
           <div class="col-sm-5">
             <img src="assets/images/myanmarnews-blue.png" class="footer-logo" alt="" style="width: 30px; height: auto;">
             <h5 class="font-weight-normal mt-4 mb-5" style="line-height: 1.7;">
-            မြန်မာနည်းပညာသတင်း၊ နည်းပြန့်နဲ့အွန်လိုင်းသတင်းအချက်အလက်များကို တင်ပြပေးနေတဲ့ Myanmar News သည် သင့်အတွက် သတင်း၊ သိပ္ပံနဲ့ အွန်လိုင်းဗဟုသုတ များကို တစ်နေရာတည်းမှာ စုစည်းထားသော ဝက်ဘ်ဆိုက်တစ်ခုဖြစ်ပါတယ်။
+           Myanmar News delivers tech updates, tutorials, and online resources—all in one place. Stay informed with the latest news, science, and digital knowledge. 
             <br><br>
-            သင်ဖတ်မယ်လို့မျှော်လင့်ပါတယ်။
+            Happy reading!
             </h5>
             <ul class="social-media mb-3">
               <li>
@@ -27,6 +27,18 @@
                 </a>
               </li>
             </ul>
+            <!-- New About Us and Contact Us buttons -->
+            <div class="footer-buttons mt-3 mb-4 d-flex flex-wrap">
+  <a href="/about-us" class="btn" 
+     style="background-color: #1e88e5; color: #fff; padding: 10px 18px; border-radius: 4px; font-size: 14px; font-weight: 600; margin-right: 12px; transition: background-color 0.3s;">
+    About Us
+  </a>
+  <a href="/contact-us" class="btn" 
+     style="background-color: transparent; color: #e0e0e0; border: 1px solid #e0e0e0; padding: 10px 18px; border-radius: 4px; font-size: 14px; font-weight: 600; transition: background-color 0.3s, color 0.3s;">
+    Contact Us
+  </a>
+</div>
+
           </div>
           <div class="col-sm-4">
             <h3 class="font-weight-bold mb-3">RECENT POSTS</h3>
