@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <!-- endinject -->
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8649713048907576"
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3157572406863018"
      crossorigin="anonymous"></script>
 
     <script>
