@@ -13,12 +13,11 @@
                 <!-- <h1 class="mb-0">မြန်မာ့ သတင်းများ</h1> -->
                 <div style="background: #fff; padding: 10px; border-radius: 5px;">
                     <h1 class="mb-2" style="color:black; line-height: 1.6">
-                        ပြန်ကျင်းပမယ့်စာမေးပွဲအတွက် 
-                        စစ်ကောင်စီ ဘာလုပ်ပေးမှာလဲ
+                        What will the military government do for the upcoming exam?
                     </h1>
                 </div>
                 <div class="fs-12">
-                    <span class="mr-2">Photo </span>၂၀၂၀ ခုနှစ်က တက္ကသိုလ်ဝင်တန်းစာမေးပွဲမှာတွေ့ရတဲ့ ကျောင်းသူတချို့
+                    <span class="mr-2">Photo </span>Some students seen during the 2020 matriculation exam.
                 </div>
             </div>
         </div>
