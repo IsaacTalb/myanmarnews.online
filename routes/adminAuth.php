@@ -21,6 +21,10 @@ Route::get('/admin/register', function () {
     return redirect('/');
 });
 
+Route::get('/register', function () {
+    return redirect('/');
+});
+
 Route::get('/admin/login', [AuthenticatedSessionController::class, 'create'])
     ->middleware('admin.guest:admin')
     ->name('admin.login');
